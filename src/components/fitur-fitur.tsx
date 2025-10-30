@@ -193,9 +193,6 @@ export default function Fiturfitur({
             <button className="bg-white text-blue-600 px-10 py-4 rounded-full font-bold text-base md:text-lg hover:bg-blue-50 transform hover:scale-105 transition-all duration-300 shadow-2xl">
               Jadwalkan Demo
             </button>
-            <button className="bg-transparent border-2 border-white text-white px-10 py-4 rounded-full font-bold text-base md:text-lg hover:bg-white/10 transition-all duration-300">
-              Hubungi Sales
-            </button>
           </div>
         </div>
       </div>

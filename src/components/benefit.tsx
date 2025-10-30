@@ -204,16 +204,10 @@ export default function BenefitsSection() {
               <h3 className="text-xl sm:text-3xl md:text-4xl font-bold text-white mb-4">
                 Siap Transformasi Digital Sekolah Anda?
               </h3>
-              <p className="text-lg sm:text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-                Bergabunglah dengan 500+ sekolah yang telah merasakan manfaat
-                Edu-patrol
-              </p>
+
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <button className="bg-white text-blue-600 px-8 py-4 rounded-full font-bold text-base md:text-lg hover:bg-blue-50 transform hover:scale-105 transition-all duration-300 shadow-lg">
                   Coba Demo Gratis
-                </button>
-                <button className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-base md:text-lg hover:bg-white/10 transition-all duration-300">
-                  Hubungi Sales
                 </button>
               </div>
             </div>
