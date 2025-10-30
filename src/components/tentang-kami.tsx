@@ -171,9 +171,7 @@ export default function AboutPage() {
               </h1>
               <p className="text-lg sm:text-xl md:text-2xl text-blue-100 max-w-4xl mx-auto mb-12 leading-relaxed">
                 Kami percaya bahwa teknologi dapat mengubah cara sekolah
-                beroperasi dan meningkatkan kualitas pembelajaran. Sejak 2019,
-                Edu-patrol telah menjadi mitra terpercaya bagi ratusan sekolah
-                dalam transformasi digital mereka.
+                beroperasi dan meningkatkan kualitas pembelajaran.
               </p>
 
               {/* Stats Grid */}
