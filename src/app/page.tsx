@@ -16,7 +16,7 @@ export default function Home() {
       <FeaturesSlider />
       <BenefitsSection />
       <EfficiencySection />
-      <TestimonialsSection />
+      {/* <TestimonialsSection /> */}
       <Footer />
       {/* Hero Section */}
     </div>

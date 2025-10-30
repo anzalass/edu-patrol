@@ -30,11 +30,10 @@ export default function Footer() {
 
   const footerLinks = {
     produk: [
-      { name: "patrol Guru", href: "#guru" },
-      { name: "patrol Siswa", href: "#siswa" },
-      { name: "patrol Kepala Sekolah", href: "#kepala-sekolah" },
-      { name: "patrol Orang Tua", href: "#orang-tua" },
-      { name: "Harga & Paket", href: "#harga" },
+      { name: "Patrol Guru", href: "#guru" },
+      { name: "Patrol Siswa & Orang Tua", href: "#siswa" },
+      { name: "Patrol Kepala Sekolah", href: "#kepala-sekolah" },
+      // { name: "Harga & Paket", href: "#harga" },
     ],
     fitur: [
       { name: "AI Generator Materi", href: "#ai-generator" },
@@ -45,10 +44,10 @@ export default function Footer() {
     ],
     perusahaan: [
       { name: "Tentang Kami", href: "#tentang" },
-      { name: "Tim Kami", href: "#tim" },
-      { name: "Karir", href: "#karir" },
-      { name: "Blog", href: "#blog" },
-      { name: "Press Kit", href: "#press" },
+      // { name: "Tim Kami", href: "#tim" },
+      // { name: "Karir", href: "#karir" },
+      // { name: "Blog", href: "#blog" },
+      // { name: "Press Kit", href: "#press" },
     ],
     dukungan: [
       { name: "Pusat Bantuan", href: "#bantuan" },
@@ -79,7 +78,7 @@ export default function Footer() {
   ];
 
   const features = [
-    { icon: Award, text: "Terpercaya 500+ Sekolah" },
+    // { icon: Award, text: "Terpercaya 500+ Sekolah" },
     { icon: Shield, text: "Keamanan Data Terjamin" },
     { icon: Clock, text: "Support 24/7" },
     { icon: Heart, text: "Made with ❤️ in Indonesia" },
@@ -105,7 +104,7 @@ export default function Footer() {
 
       <div className="relative z-10">
         {/* Newsletter Section */}
-        <div className="border-b border-white/10">
+        {/* <div className="border-b border-white/10">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
             <div className="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-3xl p-8 md:p-12 relative overflow-hidden">
               <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-3xl"></div>
@@ -140,7 +139,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Main Footer Content */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
@@ -167,23 +166,24 @@ export default function Footer() {
                   <div className="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center group-hover:bg-white/20 transition-colors">
                     <Phone className="w-5 h-5" />
                   </div>
-                  <span>+62 812-3456-7890</span>
+                  <span>+62 859-1026-04165</span>
                 </a>
                 <a
-                  href="mailto:info@edu-patrol.id"
+                  href="mailto:anzalas.muhammad@gmail.com"
                   className="flex items-center gap-3 text-blue-200 hover:text-white transition-colors group"
                 >
                   <div className="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center group-hover:bg-white/20 transition-colors">
                     <Mail className="w-5 h-5" />
                   </div>
-                  <span>info@edu-patrol.id</span>
+                  <span>anzalas.muhammad@gmail.com</span>
                 </a>
                 <div className="flex items-start gap-3 text-blue-200">
                   <div className="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center flex-shrink-0">
                     <MapPin className="w-5 h-5" />
                   </div>
                   <span>
-                    Jl. Pendidikan No. 123, Jakarta Selatan, Indonesia
+                    Jl. Raya Rajeg Mauk, Griya Rajeg Lestari, Tanjakan,
+                    Tangerang, Indonesia
                   </span>
                 </div>
               </div>

@@ -1,6 +1,6 @@
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
-import ParentStudentFeatures from "@/components/portal-siswa-ortu";
+import ParentStudentFeatures from "@/components/portal-siswa-orang-tua";
 import React from "react";
 
 export default function page() {

@@ -131,7 +131,7 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <div className="relative min-h-screen bg-gradient-to-br from-blue-900 via-indigo-900 to-purple-900 overflow-hidden">
+      <div className="relative h-screen bg-gradient-to-br from-blue-900 via-indigo-900 to-purple-900 overflow-hidden">
         {/* Animated Background */}
         <div className="absolute inset-0">
           <div className="absolute top-20 left-10 w-96 h-96 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-[float_15s_ease-in-out_infinite]"></div>
@@ -163,13 +163,13 @@ export default function AboutPage() {
                   🎓 Tentang Edu-patrol
                 </span>
               </div>
-              <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+              <h1 className="text-3xl sm:text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
                 Membangun Masa Depan
                 <span className="block text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500">
                   Pendidikan Indonesia
                 </span>
               </h1>
-              <p className="text-xl md:text-2xl text-blue-100 max-w-4xl mx-auto mb-12 leading-relaxed">
+              <p className="text-lg sm:text-xl md:text-2xl text-blue-100 max-w-4xl mx-auto mb-12 leading-relaxed">
                 Kami percaya bahwa teknologi dapat mengubah cara sekolah
                 beroperasi dan meningkatkan kualitas pembelajaran. Sejak 2019,
                 Edu-patrol telah menjadi mitra terpercaya bagi ratusan sekolah
@@ -218,15 +218,15 @@ export default function AboutPage() {
               <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center mb-6">
                 <Target className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-3xl font-bold text-gray-900 mb-4">
+              <h3 className="text-xl md:text-3xl font-bold text-gray-900 mb-4">
                 Misi Kami
               </h3>
-              <p className="text-lg text-gray-700 leading-relaxed mb-4">
+              <p className="text-base md:text-lg text-gray-700 leading-relaxed mb-4">
                 Memberikan solusi teknologi pendidikan terbaik yang mudah
                 digunakan, terjangkau, dan dapat meningkatkan efisiensi
                 operasional sekolah hingga 70%.
               </p>
-              <p className="text-lg text-gray-700 leading-relaxed">
+              <p className="text-base md:text-lg text-gray-700 leading-relaxed mb-4">
                 Kami berkomitmen untuk terus berinovasi dan mendukung sekolah
                 dalam menghadapi tantangan era digital dengan tools yang
                 powerful namun user-friendly.
@@ -238,14 +238,14 @@ export default function AboutPage() {
               <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center mb-6">
                 <Eye className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-3xl font-bold text-gray-900 mb-4">
+              <h3 className="text-xl md:text-3xl font-bold text-gray-900 mb-4">
                 Visi Kami
               </h3>
-              <p className="text-lg text-gray-700 leading-relaxed mb-4">
+              <p className="text-base md:text-lg text-gray-700 leading-relaxed mb-4">
                 Menjadi platform manajemen sekolah #1 di Indonesia yang
                 dipercaya oleh 10,000+ sekolah pada tahun 2030.
               </p>
-              <p className="text-lg text-gray-700 leading-relaxed">
+              <p className="text-base md:text-lg text-gray-700 leading-relaxed mb-4">
                 Kami ingin setiap sekolah di Indonesia, dari kota besar hingga
                 daerah terpencil, dapat mengakses teknologi pendidikan
                 berkualitas tinggi untuk menciptakan generasi unggul.
@@ -259,13 +259,13 @@ export default function AboutPage() {
       <div className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="text-2xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4">
               Nilai-Nilai{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">
                 yang Kami Junjung
               </span>
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-base sm:text-xl text-gray-600 max-w-3xl mx-auto">
               Prinsip-prinsip yang memandu setiap keputusan dan tindakan kami
             </p>
           </div>
@@ -286,10 +286,10 @@ export default function AboutPage() {
                       <Icon className="w-8 h-8 text-white" />
                     </div>
                     <div>
-                      <h4 className="text-2xl font-bold text-gray-900 mb-3">
+                      <h4 className="text-lg md:text-2xl font-bold text-gray-900 mb-3">
                         {value.title}
                       </h4>
-                      <p className="text-gray-700 leading-relaxed">
+                      <p className="text-gray-700 text-sm md:text-base leading-relaxed">
                         {value.description}
                       </p>
                     </div>

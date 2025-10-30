@@ -91,13 +91,13 @@ export default function BenefitsSection() {
           <div className="inline-block bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-6 py-2 rounded-full text-sm font-semibold mb-4">
             💎 Manfaat untuk Semua
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <h2 className="text-2xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             Solusi Lengkap untuk
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">
               Setiap Stakeholder Pendidikan
             </span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
             Edu-patrol dirancang untuk memberikan nilai maksimal bagi semua
             pihak dalam ekosistem pendidikan
           </p>
@@ -201,18 +201,18 @@ export default function BenefitsSection() {
             </div>
 
             <div className="relative z-10">
-              <h3 className="text-3xl md:text-4xl font-bold text-white mb-4">
+              <h3 className="text-xl sm:text-3xl md:text-4xl font-bold text-white mb-4">
                 Siap Transformasi Digital Sekolah Anda?
               </h3>
-              <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+              <p className="text-lg sm:text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
                 Bergabunglah dengan 500+ sekolah yang telah merasakan manfaat
                 Edu-patrol
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <button className="bg-white text-blue-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-blue-50 transform hover:scale-105 transition-all duration-300 shadow-lg">
+                <button className="bg-white text-blue-600 px-8 py-4 rounded-full font-bold text-base md:text-lg hover:bg-blue-50 transform hover:scale-105 transition-all duration-300 shadow-lg">
                   Coba Demo Gratis
                 </button>
-                <button className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white/10 transition-all duration-300">
+                <button className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-base md:text-lg hover:bg-white/10 transition-all duration-300">
                   Hubungi Sales
                 </button>
               </div>
