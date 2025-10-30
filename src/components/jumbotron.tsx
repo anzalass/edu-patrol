@@ -8,6 +8,7 @@ import {
   Users,
   BarChart,
 } from "lucide-react";
+import Link from "next/link";
 
 export default function Jumbotron() {
   const [isOpen, setIsOpen] = useState(false);
@@ -94,12 +95,18 @@ export default function Jumbotron() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300">
+              <Link
+                href={"https://api.whatsapp.com/send?phone=62859102604165"}
+                className="bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300"
+              >
                 Mulai Sekarang
-              </button>
-              <button className="bg-white/10 backdrop-blur-lg border border-white/30 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white/20 transition-all duration-300">
+              </Link>
+              <Link
+                href={"https://api.whatsapp.com/send?phone=62859102604165"}
+                className="bg-white/10 backdrop-blur-lg border border-white/30 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white/20 transition-all duration-300"
+              >
                 Lihat Demo
-              </button>
+              </Link>
             </div>
           </div>
         </div>

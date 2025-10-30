@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { LucideIcon, ChevronRight } from "lucide-react";
+import Link from "next/link";
 
 export interface FeaturePoint {
   icon: LucideIcon;
@@ -189,11 +190,14 @@ export default function Fiturfitur({
             Jadwalkan demo gratis dan rasakan kemudahan sistem manajemen sekolah
             digital!
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <Link
+            href={`https://api.whatsapp.com/send?phone=62859102604165`}
+            className="flex flex-col sm:flex-row gap-4 justify-center"
+          >
             <button className="bg-white text-blue-600 px-10 py-4 rounded-full font-bold text-base md:text-lg hover:bg-blue-50 transform hover:scale-105 transition-all duration-300 shadow-2xl">
               Jadwalkan Demo
             </button>
-          </div>
+          </Link>
         </div>
       </div>
 

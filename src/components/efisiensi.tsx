@@ -10,6 +10,7 @@ import {
   FileCheck,
   BarChart2,
 } from "lucide-react";
+import Link from "next/link";
 
 export default function EfficiencySection() {
   const [activeTab, setActiveTab] = useState(0);
@@ -279,7 +280,10 @@ export default function EfficiencySection() {
 
         {/* Bottom CTA */}
         <div className="mt-16 text-center">
-          <button className="group bg-gradient-to-r from-yellow-400 to-orange-500 text-white px-10 py-5 rounded-full font-bold text-xl shadow-2xl hover:shadow-yellow-500/50 transform hover:scale-105 transition-all duration-300">
+          <Link
+            href={"https://api.whatsapp.com/send?phone=62859102604165"}
+            className="group bg-gradient-to-r from-yellow-400 to-orange-500 text-white px-10 py-5 rounded-full font-bold text-xl shadow-2xl hover:shadow-yellow-500/50 transform hover:scale-105 transition-all duration-300"
+          >
             <span className="flex items-center gap-3">
               Mulai Hemat Sekarang
               <svg
@@ -296,7 +300,7 @@ export default function EfficiencySection() {
                 />
               </svg>
             </span>
-          </button>
+          </Link>
         </div>
       </div>
 

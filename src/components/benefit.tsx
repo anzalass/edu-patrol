@@ -8,6 +8,7 @@ import {
   Building2,
   Check,
 } from "lucide-react";
+import Link from "next/link";
 
 export default function BenefitsSection() {
   const [activeCard, setActiveCard] = useState<any>(null);
@@ -205,11 +206,14 @@ export default function BenefitsSection() {
                 Siap Transformasi Digital Sekolah Anda?
               </h3>
 
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link
+                href={`https://api.whatsapp.com/send?phone=62859102604165`}
+                className="flex flex-col sm:flex-row gap-4 justify-center"
+              >
                 <button className="bg-white text-blue-600 px-8 py-4 rounded-full font-bold text-base md:text-lg hover:bg-blue-50 transform hover:scale-105 transition-all duration-300 shadow-lg">
                   Coba Demo Gratis
                 </button>
-              </div>
+              </Link>
             </div>
           </div>
         </div>

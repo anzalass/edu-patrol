@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { Menu, X, GraduationCap, ChevronDown } from "lucide-react";
+import Link from "next/link";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -77,9 +78,12 @@ export default function Navbar() {
                 </a>
               )
             )}
-            <button className="bg-white text-blue-600 px-6 py-2 rounded-full font-semibold hover:bg-blue-50 transform hover:scale-105 transition-all duration-300 shadow-md">
+            <Link
+              href={`https://api.whatsapp.com/send?phone=62859102604165`}
+              className="bg-white text-blue-600 px-6 py-2 rounded-full font-semibold hover:bg-blue-50 transform hover:scale-105 transition-all duration-300 shadow-md"
+            >
               Demo Gratis
-            </button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
