@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
-import { BookOpen, BarChart, Users } from "lucide-react";
+import { BookOpen, BarChart, Users, ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 // Definisi tipe untuk fitur
 type Feature = {
@@ -10,6 +11,7 @@ type Feature = {
   icon: React.ReactNode;
   gradientFrom: string;
   gradientTo: string;
+  href: string;
 };
 
 export default function FiturUtama() {
@@ -28,6 +30,7 @@ export default function FiturUtama() {
       icon: <BookOpen className="w-8 h-8 text-white" />,
       gradientFrom: "from-blue-500",
       gradientTo: "to-blue-600",
+      href: "/guru",
     },
     {
       id: 2,
@@ -37,6 +40,7 @@ export default function FiturUtama() {
       icon: <BarChart className="w-8 h-8 text-white" />,
       gradientFrom: "from-indigo-500",
       gradientTo: "to-purple-600",
+      href: "/kepala-sekolah",
     },
     {
       id: 3,
@@ -46,6 +50,7 @@ export default function FiturUtama() {
       icon: <Users className="w-8 h-8 text-white" />,
       gradientFrom: "from-green-500",
       gradientTo: "to-emerald-600",
+      href: "/siswa-orang-tua",
     },
   ];
 
@@ -96,28 +101,15 @@ export default function FiturUtama() {
               </p>
 
               {/* Tombol */}
-              <button
-                className="group/btn w-11/12 absolute bottom-5 sm:left-auto sm:right-5 bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-5 py-3 sm:px-8 sm:py-4 rounded-full font-semibold text-sm sm:text-base shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden"
-                aria-label={`Lihat fitur selengkapnya untuk ${feature.title}`}
+              <Link
+                href={feature.href}
+                className="absolute bottom-5 inline-flex items-center gap-2 px-5 py-3 rounded-full text-sm font-semibold 
+    bg-gradient-to-r from-blue-700 to-blue-900 text-white shadow-lg hover:from-blue-600 hover:to-indigo-700 
+    hover:shadow-xl transform hover:scale-105 transition-all duration-300"
               >
-                <span className="relative z-10 flex items-center justify-center gap-2">
-                  Lihat Fitur Selengkapnya
-                  <svg
-                    className="w-4 h-4 sm:w-5 sm:h-5 group-hover/btn:translate-x-1 transition-transform duration-300"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M17 8l4 4m0 0l-4 4m4-4H3"
-                    />
-                  </svg>
-                </span>
-                <div className="absolute inset-0 bg-gradient-to-r from-indigo-600 to-purple-600 opacity-0 group-hover/btn:opacity-100 transition-opacity duration-300"></div>
-              </button>
+                Lihat Fitur Selengkapnya
+                <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
+              </Link>
             </div>
           ))}
         </div>
